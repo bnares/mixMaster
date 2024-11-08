@@ -13,6 +13,10 @@ const Wrapper = styled.div`
   }
   .drink-info {
     padding-top: 2rem;
+    display:flex;
+    justify-content:flex-start;
+    align-items:start;
+    flex-direction:column
   }
   .drink p {
     font-weight: 700;
